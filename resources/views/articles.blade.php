@@ -1,3 +1,17 @@
 <?php $articles = App\Article::all() ?>
 
-<h1>Articles</h1>
+@extends ('layouts/layout')
+
+@section('title', 'Articles')
+
+@section('all-articles')
+
+<div class="text-center">
+    <h1>Articles</h1>
+
+    <div class="row">
+
+    </div>
+</div>
+
+@endsection
