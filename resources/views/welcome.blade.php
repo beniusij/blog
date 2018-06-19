@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>{{ setting('site.title') }}</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -49,7 +49,15 @@
                 font-size: 84px;
             }
 
-            .links > a {
+            ul {
+                list-style-type: none;
+            }
+
+            li {
+                display: inline;
+            }
+
+            a {
                 color: #636b6f;
                 padding: 0 25px;
                 font-size: 12px;
@@ -69,18 +77,14 @@
 
             <div class="content">
 
-                <img src="{{ Voyager::image( setting('site.logo')) }}" width="25%">
+                <img src="{{ Voyager::image( setting('site.logo')) }}" width="10%">
 
                 <div class="title m-b-md">
                     {{ setting('site.title') }}
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    {{ menu('main') }}
                 </div>
             </div>
         </div>
