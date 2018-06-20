@@ -10411,6 +10411,14 @@ a.text-dark:focus {
   }
 }
 
+h1 {
+  padding: 15% 0;
+}
+
+.links {
+  margin-top: 1%;
+}
+
 ul {
   list-style-type: none;
 }

@@ -7,7 +7,6 @@
 @section('all-articles')
 
 <div class="text-center">
-    <h1>Articles</h1>
 
     <div class="row">
 
