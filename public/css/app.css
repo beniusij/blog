@@ -10427,7 +10427,7 @@ li {
   display: inline;
 }
 
-a {
+li a {
   color: #636b6f;
   padding: 0 25px;
   font-size: 12px;
@@ -10437,9 +10437,30 @@ a {
   text-transform: uppercase;
 }
 
+div.content {
+  margin: 75px auto;
+}
+
+a.article-item {
+  margin: 15px auto;
+  padding: 20px auto;
+  color: inherit;
+}
+
+a.article-item:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+img.img-thumbnail {
+  width: 250px;
+  float: left;
+  margin: auto 25px;
+}
+
 footer {
   background-color: #372523;
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
 }
@@ -10447,5 +10468,6 @@ footer {
 footer p {
   padding: 5% 0;
   color: white;
+  margin: 0;
 }
 

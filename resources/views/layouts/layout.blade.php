@@ -28,9 +28,9 @@
         </div>
     </header>
 
-    <div class="container">
-        @section('all-articles')
-            This is a list of articles.
+    <div class="container content">
+        @section('content')
+            Content.
         @show
     </div>
 

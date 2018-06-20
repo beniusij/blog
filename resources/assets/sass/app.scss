@@ -25,16 +25,41 @@ ul {
 
 li {
   display: inline;
+  a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
 }
 
-a {
-  color: #636b6f;
-  padding: 0 25px;
-  font-size: 12px;
-  font-weight: 600;
-  letter-spacing: .1rem;
-  text-decoration: none;
-  text-transform: uppercase;
+
+
+// Content
+
+div.content {
+  margin: 75px auto;
+}
+
+// Articles
+
+a.article-item {
+  margin: 15px auto;
+  padding: 20px auto;
+  color: inherit;
+  &:hover {
+    color:inherit;
+    text-decoration: none;
+  }
+}
+
+img.img-thumbnail {
+  width: 250px;
+  float: left;
+  margin: auto 25px;
 }
 
 // Footer
@@ -43,9 +68,10 @@ footer {
   p {
     padding: 5% 0;
     color: white;
+    margin: 0;
   }
   background-color: #372523;
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
 }

@@ -6,13 +6,21 @@
 
 @section('bg-image', '/bg-images/articles-bg.jpeg')
 
-@section('all-articles')
+@section('content')
 
-<div class="text-center">
+<div>
 
-    <div class="row">
+    @foreach ($articles as $a)
 
-    </div>
+            <div class="row">
+                <a href="#" class="col-md-8 offset-md-2 article-item">
+                    <img src="{{ Voyager::image($a->image) }}" class="img-thumbnail">
+                    <h2> {{ $a->title }}</h2>
+                    {{ $a->sample }}
+                </a>
+            </div>
+
+    @endforeach
 </div>
 
 @endsection
