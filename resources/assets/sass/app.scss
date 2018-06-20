@@ -36,3 +36,16 @@ a {
   text-decoration: none;
   text-transform: uppercase;
 }
+
+// Footer
+
+footer {
+  p {
+    padding: 5% 0;
+    color: white;
+  }
+  background-color: #372523;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

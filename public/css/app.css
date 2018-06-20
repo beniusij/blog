@@ -10437,3 +10437,15 @@ a {
   text-transform: uppercase;
 }
 
+footer {
+  background-color: #372523;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  padding: 5% 0;
+  color: white;
+}
+

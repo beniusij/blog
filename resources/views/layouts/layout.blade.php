@@ -28,10 +28,14 @@
         </div>
     </header>
 
-        <div class="container">
-            @section('all-articles')
-                This is a list of articles.
-            @show
-        </div>
+    <div class="container">
+        @section('all-articles')
+            This is a list of articles.
+        @show
+    </div>
+
+    <footer class="text-center">
+        <p>&copy; 2018 Juozas Beniusis</p>
+    </footer>
     </body>
 </html>
