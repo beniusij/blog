@@ -12,7 +12,7 @@ Error: File to import not found or unreadable: ~bootstrap/scss/bootstrap.
 11: // Typography
 12: 
 13: h1 {
-14:   padding: 15% 0;
+14:   padding: 15% 0 16% 0;
 
 Backtrace:
 app.scss:9
@@ -58,4 +58,4 @@ app.scss:9
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: ~bootstrap/scss/bootstrap.\A         on line 9 of app.scss\A \A 4: \A 5: // Variables\A 6: @import \"variables\";\A 7: \A 8: // Bootstrap\A 9: @import '~bootstrap/scss/bootstrap';\A 10: \A 11: // Typography\A 12: \A 13: h1 {\A 14:   padding: 15% 0;"; }
+  content: "Error: File to import not found or unreadable: ~bootstrap/scss/bootstrap.\A         on line 9 of app.scss\A \A 4: \A 5: // Variables\A 6: @import \"variables\";\A 7: \A 8: // Bootstrap\A 9: @import '~bootstrap/scss/bootstrap';\A 10: \A 11: // Typography\A 12: \A 13: h1 {\A 14:   padding: 15% 0 16% 0;"; }

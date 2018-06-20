@@ -9,6 +9,14 @@
 
         <!-- Stylesheet -->
         <link href="/css/app.css" rel="stylesheet" type="text/css">
+
+        <!-- Header background image style -->
+        <style>
+            header {
+                background-image: url("@yield('bg-image')");
+                background-size: cover;
+            }
+        </style>
     </head>
     <body>
     <header>

@@ -4,6 +4,8 @@
 
 @section('title', 'Articles')
 
+@section('bg-image', '/bg-images/articles-bg.jpeg')
+
 @section('all-articles')
 
 <div class="text-center">
